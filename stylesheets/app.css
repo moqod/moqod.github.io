@@ -2,32 +2,32 @@
 
 @font-face {
   font-family: "Multicolore";
-  src: url('../fonts/Multicolore/multicolore.eot');
-  src: url('../fonts/Multicolore/multicolore.eot?#iefix') format("embedded-opentype"), url('../fonts/Multicolore/multicolore.woff') format("woff"), url('../fonts/Multicolore/multicolore.ttf') format("truetype"), url('../fonts/Multicolore/multicolore.svg#open_sansregular') format("svg");
+  src: url('../fonts/multicolore/multicolore.eot');
+  src: url('../fonts/multicolore/multicolore.eot?#iefix') format("embedded-opentype"), url('../fonts/multicolore/multicolore.woff') format("woff"), url('../fonts/multicolore/multicolore.ttf') format("truetype"), url('../fonts/multicolore/multicolore.svg#open_sansregular') format("svg");
 }
 
 @font-face {
   font-family: "Quarklight";
-  src: url('../fonts/QuarkLight/quarklight.eot');
-  src: url('../fonts/QuarkLight/quarklight.eot?#iefix') format("embedded-opentype"), url('../fonts/QuarkLight/quarklight.woff') format("woff"), url('../fonts/QuarkLight/quarklight.ttf') format("truetype"), url('../fonts/QuarkLight/quarklight.svg#open_sansregular') format("svg");
+  src: url('../fonts/quarklight/quarklight.eot');
+  src: url('../fonts/quarklight/quarklight.eot?#iefix') format("embedded-opentype"), url('../fonts/quarklight/quarklight.woff') format("woff"), url('../fonts/quarklight/quarklight.ttf') format("truetype"), url('../fonts/quarklight/quarklight.svg#open_sansregular') format("svg");
 }
 
 @font-face {
   font-family: "Quarkbold";
-  src: url('../fonts/QuarkBold/quarkbold.eot');
-  src: url('../fonts/QuarkBold/quarkbold.eot?#iefix') format("embedded-opentype"), url('../fonts/QuarkBold/quarkbold.woff') format("woff"), url('../fonts/QuarkBold/quarkbold.ttf') format("truetype"), url('../fonts/QuarkBold/quarkbold.svg#open_sansregular') format("svg");
+  src: url('../fonts/quarkbold/quarkbold.eot');
+  src: url('../fonts/quarkbold/quarkbold.eot?#iefix') format("embedded-opentype"), url('../fonts/quarkbold/quarkbold.woff') format("woff"), url('../fonts/quarkbold/quarkbold.ttf') format("truetype"), url('../fonts/quarkbold/quarkbold.svg#open_sansregular') format("svg");
 }
 
 @font-face {
   font-family: "ProximanovaRegular";
-  src: url('../fonts/ProximaNovaRegular/ProximaNovaRegular.eot');
-  src: url('../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix') format("embedded-opentype"), url('../fonts/ProximaNovaRegular/ProximaNovaRegular.woff') format("woff"), url('../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf') format("truetype"), url('../fonts/ProximaNovaRegular/ProximaNovaRegular.svg#open_sansregular') format("svg");
+  src: url('../fonts/proximanovaregular/proximanovaregular.eot');
+  src: url('../fonts/proximanovaregular/proximanovaregular.eot?#iefix') format("embedded-opentype"), url('../fonts/proximanovaregular/proximanovaregular.woff') format("woff"), url('../fonts/proximanovaregular/proximanovaregular.ttf') format("truetype"), url('../fonts/proximanovaregular/proximanovaregular.svg#open_sansregular') format("svg");
 }
 
 @font-face {
   font-family: "ProximanovaSemibold";
-  src: url('../fonts/ProximaNovaSemibold/ProximaNovaSemibold.eot');
-  src: url('../fonts/ProximaNovaSemibold/ProximaNovaSemibold.eot?#iefix') format("embedded-opentype"), url('../fonts/ProximaNovaSemibold/ProximaNovaSemibold.woff') format("woff"), url('../fonts/ProximaNovaSemibold/ProximaNovaSemibold.ttf') format("truetype"), url('../fonts/ProximaNovaSemibold/ProximaNovaSemibold.svg#open_sansregular') format("svg");
+  src: url('../fonts/proximanovasemibold/proximanovasemibold.eot');
+  src: url('../fonts/proximanovasemibold/proximanovasemibold.eot?#iefix') format("embedded-opentype"), url('../fonts/proximanovasemibold/proximanovasemibold.woff') format("woff"), url('../fonts/proximanovasemibold/proximanovasemibold.ttf') format("truetype"), url('../fonts/proximanovasemibold/proximanovasemibold.svg#open_sansregular') format("svg");
 }
 
 /*! normalize.css v2.1.1 | MIT License | git.io/normalize */
