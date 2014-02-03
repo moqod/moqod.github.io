@@ -96,7 +96,6 @@
 }
 .service-blocks-wrapper .service-blocks .service-block [class^="icon-"] {
     float: left;
-    margin-top: 5px;
     margin-bottom: 30px;
     margin-left: -70px;
 }
@@ -108,7 +107,7 @@
 }
 .service-blocks-wrapper .service-blocks .service-block .content {
     text-align: center;
-    padding: 50px 20px 20px 20px;
+    padding: 59px 20px 20px 20px;
 }
 .service-blocks-wrapper .service-blocks .service-block .content > span {
     display: inline-block;
@@ -195,6 +194,7 @@
    }
    .service-blocks-wrapper .service-blocks .service-block .content {
        padding-left: 20px;
+       padding-top: 64px;
        font-size: 13px;
    }
    .service-blocks-wrapper .service-blocks .service-block .content [class^="icon-"] {
@@ -233,8 +233,6 @@
         padding: 0 1% !important;
     }
     .blog-container .image-box {
-
-
         padding: 0 !important;
         clear: both !important;
     }
@@ -380,7 +378,7 @@
        padding-left: 10px;
        font-size: 11px;
        letter-spacing: 0.1em;
-       padding-top: 28px;
+       padding-top: 35px;
    }
    .service-blocks-wrapper .service-blocks .service-block .content [class^="icon-"] {
        margin-top: 0;
@@ -526,7 +524,7 @@
    }
    .service-blocks-wrapper .service-blocks .service-block .content {
         font-size: 9px;
-        padding: 32px 8px 25px;
+        padding: 44px 8px 25px;
         text-align: center;
    }
    .service-blocks-wrapper .service-blocks .service-block [class^="icon-"] {
