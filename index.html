@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="ru"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="ru">
+	<!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Moqod is a cutting edge digital agency that delivers mobile solutions for personal and enterprise use on all major mobile platforms." />
+		<meta name="keywords" content="App development, apps, mobile agency, mobile development, digital agency, mobile digital agency, iOS, iPhone, iPad, Android, iOS development, iOS developers Russia, iOS developers Ukraine, mobile consulting, Xcode, Objective-C, ObjC, Dutch app developers" />
+		<title>Moqod – All about mobile</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+		<link rel="shortcut icon"  href="/favicon.ico">
+
+		<!-- Included CSS Files (Compressed) -->
+		<link rel="stylesheet" href="stylesheets/app.css">
+		<link rel="stylesheet" href="stylesheets/hot-fix.css">
+		
+		<script src="javascripts/vendor/jquery.min.js"></script>
+		<script src="javascripts/foundation/foundation.js"></script>
+		<script src="javascripts/foundation/foundation.topbar.js"></script>
+
+		<script src="javascripts/app.js"></script>
+
+	</head>
+	<body style="overflow: visible; overflow-x: hidden; background-color: #4D4D4D;">
+		<div class="container" id="page" style="margin-bottom: -74px;">
+
+			<div class="fixed">
+				<nav class="top-bar">
+					<ul class="title-area">
+						<li class="name">
+							<h1><a href="/"></a></h1>
+						</li>
+						<li class="toggle-topbar menu-icon">
+							<a href="/"><span>Menu</span></a>
+						</li>
+					</ul>
+					<section class="top-bar-section">
+						<ul class="left" id="nav-slider-wrapper">
+							<li class="active">
+								<a href="#">about</a>
+							</li>
+							<li>
+								<a href="services.html">services</a>
+							</li>
+							<li>
+								<a href="work.html">work</a>
+							</li>
+							<li>
+								<a href="contact.html">contact</a>
+							</li>
+						</ul>
+						<span class="slider" id="nav-slider"></span>
+					</section>
+					<section class="social-panel right" id="social-panel">
+						<ul>
+							<li class="off first">
+								<a href="#" class="social"></a>
+							</li>
+							<li class="on first">
+								<a href="http://www.facebook.com/moqod" target="_blank" class="facebook"></a>
+							</li>
+							<li class="on">
+								<a href="http://twitter.com/moqod" target="_blank" class="twitter"></a>
+							</li>
+							<li class="on">
+								<a href="http://www.linkedin.com/company/moqod" target="_blank" class="linkedin"></a>
+							</li>
+							<li class="on">
+								<a href="http://www.xing.com/companies/MOQOD" target="_blank" class="xing"></a>
+							</li>
+							<li class="on">
+								<a href="http://github.com/moqod" target="_blank" class="github"></a>
+							</li>
+							<li class="invisible">
+								<a href="http://plus.google.com/111843553003542402041" target="_blank" class="google"></a>
+							</li>
+						</ul>
+					</section>
+				</nav>
+			</div>
+			<!--    <div class="loading-container">
+			<div class="loading">
+
+			</div>
+			</div>-->
+			<div class="container-wrapper" style="padding-bottom: 74px;">
+				<section class="about" id="about" style="min-height: 350px;">
+					<div class="row banner-wrapper">
+						<div class="banner">
+							<div class="banner-content">
+								<div class="header">
+									<img class="logo" alt="" src="images/logo-about.png" />
+									<h1>Cutting edge</h1>
+									<h2>Digital agency
+									<br>
+									all about mobile</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div id="blocks" class="blocks">
+					<div class="block">
+						<span class="content">Develop apps
+							<br>
+							that people love</span>
+					</div>
+					<div class="block">
+						<span class="content">Serve businesses
+							<br>
+							with mobile
+							<br>
+							solutions</span>
+					</div>
+					<div class="block">
+						<span class="content">Build
+							<br>
+							relationships
+							<br>
+							with customers</span>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<footer id="footer">
+			<div class="left-side">
+				<p>
+					© Copyright 2014 MOQOD.COM MOBILE DEVELOPMENT HOUSE.
+				</p>
+				<p>
+					All rights reserved.
+				</p>
+			</div>
+		</footer>
+
+		<script>
+            $(document).foundation();
+		</script>
+		<script>
+            var $about = $("#about"),
+            	footerHeight = $("#footer").height(),
+            	windowHeight = $(window).height(),
+            	windowWidth = $(window).width(),
+            	headerHeight = $(".top-bar").height(),
+            	blocksHeight = $("#blocks").height();
+            	
+            	$(document).on("ready", function(){
+            		$about.css("height", windowHeight-(blocksHeight+footerHeight+headerHeight)-26+"px");
+            		
+            		if(windowWidth <= 1920 && windowWidth > 1600) {
+            			$about.css("minHeight", 640+"px");
+            		}   
+            		else if(windowWidth <= 1599 && windowWidth > 1280) {
+            			$about.css("minHeight", 560+"px");
+            		}   
+            		else if(windowWidth <= 1279 && windowWidth > 1000) {
+            			$about.css("minHeight", 510+"px");
+            		}   
+            		else if(windowWidth <= 999 && windowWidth > 768) {
+            			$about.css("minHeight", 440+"px");
+            		}   
+            		else if(windowWidth <= 768) {
+            			$about.css("minHeight", 350+"px");
+            		}   
+            		        		
+            	});
+            	
+            	$(window).resize(function(){
+            		windowHeight = $(window).height(),
+            		headerHeight = $(".top-bar").height(),
+            		windowWidth = $(window).width(),
+            		blocksHeight = $("#blocks").height();
+            		
+            		$about.css("height", windowHeight-(blocksHeight+footerHeight+headerHeight)-26+"px");
+            		
+            		if(windowWidth <= 1920 && windowWidth > 1600) {
+            			$about.css("minHeight", 640+"px");
+            		}   
+            		else if(windowWidth <= 1599 && windowWidth > 1280) {
+            			$about.css("minHeight", 560+"px");
+            		}   
+            		else if(windowWidth <= 1279 && windowWidth > 1000) {
+            			$about.css("minHeight", 510+"px");
+            		}   
+            		else if(windowWidth <= 999 && windowWidth > 768) {
+            			$about.css("minHeight", 440+"px");
+            		}   
+            		else if(windowWidth <= 768) {
+            			$about.css("minHeight", 350+"px");
+            		} 
+            	});
+            	
+            
+		</script>
+	</body>
+</html>
